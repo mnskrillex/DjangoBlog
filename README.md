@@ -20,6 +20,11 @@
 使用pip安装：  
 `pip install -Ur requirements.txt`
 
+单独安装rcssmin,rjsmin,compressor  
+`pip install rcssmin --install-option="--without-c-extensions" `  
+`pip install rjsmin --install-option="--without-c-extensions"`  
+`pip install django-compressor --upgrade`
+
 如果你没有pip，使用如下方式安装：    
 OS X / Linux 电脑，终端下执行:  
 
